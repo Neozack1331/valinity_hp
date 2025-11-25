@@ -1,0 +1,45 @@
+:root {
+  /* Colors */
+  --color-navy: #0a192f;
+  /* Deep Navy */
+  --color-navy-light: #112240;
+  /* Lighter Navy for cards/sections */
+  --color-navy-transparent: rgba(17, 34, 64, 0.75);
+  /* For glassmorphism */
+  --color-platinum: #e5e4e2;
+  /* Platinum Silver */
+  --color-gold: #d4af37;
+  /* Champagne Gold (Accent) */
+  --color-blue: #00f0ff;
+  /* Valid Blue (Tech/Future accent) */
+  --color-blue-dim: rgba(0, 240, 255, 0.1);
+  --color-white: #ffffff;
+  --color-text-main: #e6f1ff;
+  --color-text-muted: #8892b0;
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, var(--color-navy) 0%, #020c1b 100%);
+  --gradient-card: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+  --gradient-glow: radial-gradient(circle at center, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+  --gradient-text: linear-gradient(to right, var(--color-platinum), #fff);
+
+  /* Typography */
+  --font-serif: 'Playfair Display', 'Times New Roman', serif;
+  --font-sans: 'Noto Sans JP', 'Helvetica Neue', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  /* Effects */
+  --shadow-card: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+  --shadow-hover: 0 20px 30px -15px rgba(2, 12, 27, 0.7);
+  --backdrop-blur: blur(10px);
+}
